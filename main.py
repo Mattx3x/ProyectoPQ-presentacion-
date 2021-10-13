@@ -4,7 +4,7 @@ print ("Bienvenido " + Nombre_Apellido)
 Edad = input("Ingrese su edad ")
 print ("Edad: " + Edad)
 
-Estatus = input("Por favor diganos algo sobre usted, a que se dedica ? (Estudiante o profesor )")
+Estatus = input("Por favor diganos algo sobre usted, a que se dedica ? (Estudiante o profesor ): ")
 print("Estatus: "+ Estatus)
 
 print ("Acontinuacion le haremos realizar unas pocas preguntas y calculos con el fin de saber en conocimiento esta basado ")
@@ -21,7 +21,7 @@ else :
 # agregar funcion para simplificar, lo de arriba
 
 preg1 = input("Las celulas son unidades pequenas , pero en la quimica hablamos de... ")
-if preg1 == ("atomos", "particulas") :
+if preg1 == ("atomos","particulas") :
      print("Bien has acertado, sigue asi !")
 else :
     input(print("Has errado , si quieres podemos enseñarte un texto en donde podras entender algo de el tema Y/N"))
